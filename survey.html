@@ -1,0 +1,111 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+      padding: 20px;
+    }
+    
+    h1 {
+        font-family: 'Nasalization';
+        text-align: center;
+        color: lightgrey;
+    }
+    
+    form {
+      background-color: Grey;
+      padding: 20px;
+      border-radius: 5px;
+      font-family: 'Nasalization';
+    
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="content" style="background-color: rgba(0,0,0,0.5);">
+
+  <h1>Exotic Cars</h1>
+  
+  <p><ul class="topnav">
+  <a href="index.html">Home</a>
+  <a href="bmw.html">BMW</a>
+  <a href="ferrari.html">Ferrari</a>
+  <a href="porsche.html">Porsche</a>
+ <a href="lamborghini.html">Lamborghini</a>
+</ul></p></header>
+
+</div>
+  
+  <style>
+    body {
+      font-family: 'Nasalization';
+      font-size:20;
+      text-align: center;
+      background: darkgrey;
+    }
+    input {
+      margin: 5px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="make">Make:</label>
+        <select id="make" name="make">
+          <option value="">Select Make</option>
+          <option value="toyota">Bmw</option>
+          <option value="honda">Ferrari</option>
+          <option value="ford">Porsche</option>
+          <option value="chevrolet">Lamborghini</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model" placeholder="Enter Model">
+      </div>
+      <div class="form-group">
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year" placeholder="Enter Year">
+      </div>
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" placeholder="Enter Description"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+  
+
+  <p id="story"></p>
+
+  <script>
+    function generateStory() {
+      let adjective1 = document.getElementById("adjective1").value;
+      let noun1 = document.getElementById("noun1").value;
+      let verb1 = document.getElementById("verb1").value;
+      let adjective2 = document.getElementById("adjective2").value;
+      let noun2 = document.getElementById("noun2").value;
+
+      let story = "My dream car is a " + adjective1 + " " + noun1 + ". It can " + verb1 + " at incredible speeds! The " + adjective2 + " " + noun2 + " makes it look amazing.[1][4]";
+
+      document.getElementById("story").innerHTML = story;
+    }
+  </script>
+ 
+</body>
+</html>

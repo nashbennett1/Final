@@ -1,0 +1,104 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-family: Arial;
+  font-size: 15px;
+}
+ header {
+     color: #fff;
+    text-align: center;
+    margin: 0;
+    font-family: 'Nasalization';
+    font-size: 22px;
+    margin-left:0;
+
+
+}
+
+.writing{
+ 
+position:fixed;
+  font-size:10px;
+  bottom:0;
+  color: white;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left:50;
+  margin-top: 100;
+ 
+}
+ body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+      padding: 0px;
+    }
+    
+ 
+    
+    form {
+      background-color: purple;
+      padding: 20px;
+      border-radius: 5px;
+    
+    }
+    
+label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position:fixed;
+  top:0;
+  text-align:center;
+  background: #f0f0f5;
+  color: white;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left:0px;
+ 
+}
+.story{
+    position:fixed;
+  top:0;
+    text-align:center;
+  background: #f0f0f5;
+  color: white;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left:0px;
+}
+    
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: white;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: white;
+}
